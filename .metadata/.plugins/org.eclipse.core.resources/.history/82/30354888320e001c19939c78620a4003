@@ -1,0 +1,20 @@
+package testNg;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class Assertions {
+
+	SoftAssert soft = new SoftAssert();
+	WebDriver driver;
+	
+	
+	@Test
+	public void Launch() {
+		System.setProperty("webdriver.chrome.driver", "D:\\Full Stack Java developer\\Hibernate Jars\\libs\\chromedriver.exe");
+		driver = new ChromeDriver();
+	}
+	
+}

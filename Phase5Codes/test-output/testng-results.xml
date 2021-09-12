@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18184" started-at="2021-09-05T16:31:24 IST" finished-at="2021-09-05T16:31:42 IST">
+    <groups>
+      <group name="Chrome">
+        <method signature="ParallelTests.LaunchChrome()[pri:0, instance:testNg.ParallelTests@3fd7a715]" name="LaunchChrome" class="testNg.ParallelTests"/>
+        <method signature="ParallelTests.Facebook()[pri:0, instance:testNg.ParallelTests@3fd7a715]" name="Facebook" class="testNg.ParallelTests"/>
+      </group> <!-- Chrome -->
+      <group name="Edge">
+        <method signature="ParallelTests.LaunchEdge()[pri:0, instance:testNg.ParallelTests@3fd7a715]" name="LaunchEdge" class="testNg.ParallelTests"/>
+        <method signature="ParallelTests.Facebook2()[pri:0, instance:testNg.ParallelTests@3fd7a715]" name="Facebook2" class="testNg.ParallelTests"/>
+      </group> <!-- Edge -->
+    </groups>
+    <test name="Test" duration-ms="18184" started-at="2021-09-05T16:31:24 IST" finished-at="2021-09-05T16:31:42 IST">
+      <class name="testNg.ParallelTests">
+        <test-method status="PASS" signature="LaunchChrome()[pri:0, instance:testNg.ParallelTests@3fd7a715]" name="LaunchChrome" duration-ms="8214" started-at="2021-09-05T16:31:24 IST" finished-at="2021-09-05T16:31:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method status="PASS" signature="LaunchEdge()[pri:0, instance:testNg.ParallelTests@3fd7a715]" name="LaunchEdge" duration-ms="8806" started-at="2021-09-05T16:31:32 IST" finished-at="2021-09-05T16:31:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchEdge -->
+        <test-method status="PASS" signature="Facebook()[pri:0, instance:testNg.ParallelTests@3fd7a715]" name="Facebook" duration-ms="623" started-at="2021-09-05T16:31:41 IST" depends-on-methods="testNg.ParallelTests.LaunchChrome" finished-at="2021-09-05T16:31:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebook -->
+        <test-method status="PASS" signature="Facebook2()[pri:0, instance:testNg.ParallelTests@3fd7a715]" name="Facebook2" duration-ms="444" started-at="2021-09-05T16:31:42 IST" depends-on-methods="testNg.ParallelTests.LaunchEdge" finished-at="2021-09-05T16:31:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebook2 -->
+      </class> <!-- testNg.ParallelTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+package com;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SeleniumBasic {
+
+	public static void main(String[] args) {
+		
+		//Firefox driver
+		System.setProperty("webdriver.gecko.driver", "D:\\Full Stack Java developer\\Hibernate Jars\\libs\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		
+		
+	}
+
+}

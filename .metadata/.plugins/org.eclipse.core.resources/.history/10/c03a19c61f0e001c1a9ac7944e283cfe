@@ -1,0 +1,11 @@
+package com;
+
+public class SnaphsotsExample {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "D:\\\Full Stack Java developer\\Hibernate Jars\\libs\\chromedriver.exe");
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package com;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+public class SeleniumBasic {
+
+	public static void main(String[] args) {
+		
+		//Firefox driver
+		System.setProperty("webdriver.gecko.driver", "D:\\Full Stack Java developer\\Hibernate Jars\\libs\\geckodriver.exe");
+		WebDriver Fdriver = new FirefoxDriver();
+		
+		//Chrome driver
+		System.setProperties("webdriver.chrome.driver", "D:\\Full Stack Java developer\\Hibernate Jars\\libs\\chromedriver.exe");
+		
+	}
+
+}
